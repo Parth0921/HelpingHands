@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">510826297794-dj0b4mh3mlp145ofqc0b71bku40a7gho.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">510826297794</string>
+    <string name="google_api_key" translatable="false">AIzaSyAd6kl5eQ8O1P80bvRN0nEtr713eFSNpc4</string>
+    <string name="google_app_id" translatable="false">1:510826297794:android:2044bc9383b37bb9c67e5b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAd6kl5eQ8O1P80bvRN0nEtr713eFSNpc4</string>
+    <string name="google_storage_bucket" translatable="false">sgp-helping-hands.appspot.com</string>
+    <string name="project_id" translatable="false">sgp-helping-hands</string>
+</resources>
