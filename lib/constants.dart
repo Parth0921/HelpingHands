@@ -6,6 +6,7 @@ import 'package:my_project/forgot_password_view.dart';
 import 'package:my_project/home_pageNU.dart';
 import 'package:my_project/hotel_view_on_notif.dart';
 import 'package:my_project/login_view.dart';
+import 'package:my_project/nopremainingpage.dart';
 import 'package:my_project/notifications_page.dart';
 import 'package:my_project/profile_page.dart';
 import 'package:my_project/settings_page.dart';
@@ -24,5 +25,6 @@ class Navigate {
     '/forgot_password': (context) => const ForgotPassword(),
     '/edit_profile': (context) => const edit_profile_page(),
     '/settings': (context) => const settings_page(),
+    '/nopremaining': (context) => const nopRemaining(),
   };
 }

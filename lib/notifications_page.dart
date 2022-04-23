@@ -57,9 +57,16 @@ class _notifications_pageState extends State<notifications_page> {
     model.User user = Provider.of<UserProvider>(context).getUser;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Notifications"),
-      ),
+      appBar: AppBar(title: const Text("Notifications"), actions: <Widget>[
+        Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: GestureDetector(
+              onTap: () {
+                Navigator.of(context).pushNamed('/nopremaining');
+              },
+              child: const Icon(Icons.info)),
+        ),
+      ]),
       body: StreamBuilder(
         stream: FirebaseFirestore.instance
             .collection('users')
